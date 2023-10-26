@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="Assignment.css">
+    <script src="Assignment.js"></script>
+</head>
+<body>
+    <h1>Web Service API</h1>
+    
+    <div class = "flexBoxRow">
+        <div class = "flexBoxColumn1">
+            <h2>Obtain user information</h2>
+            <label for ="meat or filler">Do you want just meat or meat with filler?</label>
+            <select id = "meatOrFiller">
+                <option value="all-meat">all-meat</option>
+                <option value="meat-and-filler">meat-and-filler</option>
+            </select><br></br>
+            <label for = "newParas">How many paragraphs?</label>
+            <select id="newParas">
+                <option value=1>1</option>
+                <option value=2>2</option>
+                <option value=3>3</option>
+                <option value=4>4</option>
+                <option value=5>5</option>
+            </select><br></br>
+            <label for = "what_method">How to encrypt the data</label>
+            <select id="what_method">
+                <option value="method 1">method 1</option>
+                <option value="method 2">method 2</option>
+            </select><br></br>
+    
+            <input type="button" value= "get bacon" onclick="getBacon()">
+            </div>
+        <div class="flexBoxColumn">
+            <h2> Return raw json data</h2>
+            <p id="myRawData">
+            </p>
+        </div>
+        <div class="flexBoxColumn">
+            <h2>Return formated</h2>
+            <p id="myFormatedData">
+            </p>
+        </div>
+
+        <div class="flexBoxColumn">
+            <h2>Return encrypted</h2>
+            <p id="caesarCipherEncrypt">
+            </p>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

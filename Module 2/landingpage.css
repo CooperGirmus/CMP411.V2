@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(238, 209, 129);
+}
+
+header {
+    background-color: #ffa500;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+.nav-items a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section#hero {
+    text-align: center;
+    color: #ffa500;
+    padding: 5rem 0;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background-color: #ffa500;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+section#about {
+    background-color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    color: #ffa500;
+    margin-bottom: 1rem;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+section#products {
+    background-color: #fff8e6;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#products h2 {
+    font-size: 2rem;
+    color: #ffa500;
+    margin-bottom: 2rem;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 50%;
+    border-radius: 5px;
+}
+
+.product h3 {
+    font-size: 1.5rem;
+    color: #ffa500;
+    margin: 1rem 0;
+}
+
+.product p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #ffa500;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+section#contact {
+    background-color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.contact-content h2 {
+    font-size: 2rem;
+    color: #ffa500;
+    margin-bottom: 1rem;
+}
+
+.contact-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #ffa500;
+    text-align: center;
+    padding: 1rem 0;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 1400px) {
+    .product {
+        flex-basis: calc(30% - 20px);
+    }
+}
+
+@media (max-width: 600px) {
+    .product {
+        flex-basis: calc(100% - 20px);
+    }
+}

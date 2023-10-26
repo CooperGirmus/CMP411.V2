@@ -1,0 +1,42 @@
+.flexBoxRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start; 
+   
+}
+
+.flexBoxColumn { 
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    flex-basis: calc(25% - 20px); 
+    box-sizing: border-box;
+    width: auto;  
+    
+ } 
+ .flexBoxColumn1{
+    flex: 1;
+    margin: 10px;
+    padding: 15px;
+    text-align: left;
+    flex-basis: calc(25% - 20px); 
+    box-sizing: border-box;
+    width: auto; 
+
+ }
+
+
+
+/* @media (max-width: 900px) {
+    .flexBoxColumn {
+        flex-basis: calc(50% - 20px);
+    }
+} */
+
+@media (max-width: 660px) {
+    .flexBoxColumn {
+        flex-basis: calc(100% - 20px);
+    }
+}

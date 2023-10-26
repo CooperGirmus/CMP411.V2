@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment3</title>
+    <link rel="stylesheet" href="Assignment3.css">
+    <script src="Assignment3.js"></script>
+</head>
+<body>
+    <div class="flexBoxRow">
+        
+        <div class="flexBoxColumn">
+            <h1> Palindrome Checker </h1>
+            <form name="myList">
+                Enter a word: <input type="text" name="newWord" value=""><br />
+                Select method: <input type="number" name="newNumber" value=""><br /><br />
+                 
+                <input type="button" value="add to method" onclick="approveWord()">              
+            </form>
+        </div>
+        <div class="flexBoxColumn">
+            <h2> Method 1 </h2> 
+            <table id="mymethod1">
+            </table>
+            <input type="button" value="Check word" onclick="method1()"><br><br>
+            <input type="button" value="clear Method1" onclick="clearMethod1()">
+        </div>
+        <div class="flexBoxColumn">
+            <h2>Method 2</h2>
+            <table id="mymethod2">     
+            </table>
+            <input type="button" value="Check word" onclick="method2()"><br><br>
+            <input type="button" value="clear Method2" onclick="clearMethod2()">
+        </div>
+    </div>
+    
+</body>
+</html>

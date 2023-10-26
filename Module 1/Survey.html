@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CMP 411 Survey</title>
+    <link rel="stylesheet" href="Survey.css">
+</head>
+<body>
+    <div id="survey-form">
+        <h1>What is your favorite sport?</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="favoriteSport">Sport:</label>
+            <input type="text" id="favoriteSport" name="favoriteSport" placeholder="Enter your favorite sport" required>
+            <br><br>
+
+            <label for="dropdown">How was your experience with this sport?</label><br>
+            <select id="dropdown" name="experience" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="A blast">A blast</option>
+                <option value="Joyful">Joyful</option>
+                <option value="Alright">Alright</option>
+                <option value="Not the best">Not the best</option>
+            </select>
+            <br><br>
+
+            <label for="watchedRadio">Did you watch this sport while growing up?</label><br>
+            <input type="radio" id="yes" name="watched" value="yes" required>
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="watched" value="no">
+            <label for="no">No</label><br>
+            <input type="radio" id="sometimes" name="watched" value="sometimes">
+            <label for="sometimes">Sometimes</label><br>
+            <br>
+
+            <label for="checkbox">Which sports did you have at your high school?</label><br>
+            <input type="checkbox" id="basketball" name="sports[]" value="basketball">
+            <label for="basketball">Basketball</label><br>
+            <input type="checkbox" id="football" name="sports[]" value="football">
+            <label for="football">Football</label><br>
+            <input type="checkbox" id="baseball" name="sports[]" value="baseball">
+            <label for="baseball">Baseball</label><br>
+            <input type="checkbox" id="track" name="sports[]" value="track">
+            <label for="track">Track</label><br>
+            <br>
+
+            <p><label for="sportsComments">Any further comments on your sport?</label></p><br>
+            <textarea id="sportsComments" name="comments" cols="30" rows="10"></textarea>
+            <br>
+
+            <input type="submit" id="submitBtn" value="Submit"><br>
+            <div id="thankYouMessage" style="display: none;">Thank you for filling out the survey!</div>
+
+           
+        </form>
+    </div>
+</body>
+</html>

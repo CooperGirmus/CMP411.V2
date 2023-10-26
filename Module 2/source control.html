@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="source control.css">
+    <title>Responsive Flexbox</title>
+
+</head>
+<body>
+
+<h2>responsive 4 box layout using flex Boxs</h2>
+<p><strong> Resize the website to see teh reposive effect</strong></p> 
+<p> On screens 900 pixels or less the coulumns will resize from 4 to 2</p>
+<p> On screens 600 pixels or less the coulums will resize from 2 to 1 </p>
+
+    <div class="flexboxRow">
+        
+        <div class="flexBoxColumn" style="background-color:#aaa;">
+            <h2>Cell 1 - HTML Link</h2>
+            <p><a href="https://www.doane.edu/" target="_blank" rel="noopener noreferrer">Doane University</a>.</p>
+        </div>
+        
+        <div class="flexBoxColumn" style="background-color:#bbb;">
+            <h2>Cell 2 - Image</h2>
+            <img src="../Photos/Tiger.jpg" alt="A Tiger" style="width:50%;">
+        </div>
+        
+        <div class="flexBoxColumn" style="background-color:#ccc;">
+            <h2>Cell 3 - Video</h2>
+            <p><video width="50%" controls>
+                <source src="../Photos/Dunk video.MP4" type="video/mp4"></p>   
+            </video>
+        
+        </div>
+        <div class="flexBoxColumn" style="background-color:#ddd;">
+            <h2>Cell 4 - Geolocation</h2>
+            <button onclick="getLocation()">pleas Try It</button>
+
+            <p id="demo"></p>
+
+            <script>
+            var x = document.getElementById("demo");
+
+            function getLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                } else { 
+                    x.innerHTML = "Geolocation is really not supported by this browser.";
+                }
+            }
+
+            function showPosition(position) {
+                x.innerHTML = "Latitude: " + position.coords.latitude + 
+                "<br>Longitude: " + position.coords.longitude;
+            }
+            </script>
+        </div>
+    </div>
+
+</body>
+</html>
