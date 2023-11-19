@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "tLB4jiXzv8OkiQN/8Amwa+IiY7kg/065EPV5V2mb4Nk=",
+  "Source": "TodoApiCore7",
+  "BasePath": "_content/TodoApiCore7",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TodoApiCore7\\wwwroot",
+      "Source": "TodoApiCore7",
+      "ContentRoot": "C:\\Users\\cgirm\\OneDrive\\Desktop\\CMP411\\TodoApiCore7\\TodoApiCore7\\wwwroot\\",
+      "BasePath": "_content/TodoApiCore7",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\cgirm\\OneDrive\\Desktop\\CMP411\\TodoApiCore7\\TodoApiCore7\\wwwroot\\css\\site.css",
+      "SourceId": "TodoApiCore7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cgirm\\OneDrive\\Desktop\\CMP411\\TodoApiCore7\\TodoApiCore7\\wwwroot\\",
+      "BasePath": "_content/TodoApiCore7",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\cgirm\\OneDrive\\Desktop\\CMP411\\TodoApiCore7\\TodoApiCore7\\wwwroot\\index.html",
+      "SourceId": "TodoApiCore7",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cgirm\\OneDrive\\Desktop\\CMP411\\TodoApiCore7\\TodoApiCore7\\wwwroot\\",
+      "BasePath": "_content/TodoApiCore7",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

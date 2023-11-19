@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "x+2ZbvlPn2aDk0A8j5j4LtRNk/DjNl1nWjcsEuSB+V0=",
+  "Source": "MusicApi",
+  "BasePath": "_content/MusicApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MusicApi\\wwwroot",
+      "Source": "MusicApi",
+      "ContentRoot": "C:\\Users\\cgirm\\OneDrive\\Desktop\\CMP411\\MusicApi\\MusicApi\\wwwroot\\",
+      "BasePath": "_content/MusicApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\cgirm\\OneDrive\\Desktop\\CMP411\\MusicApi\\MusicApi\\wwwroot\\Index.html",
+      "SourceId": "MusicApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cgirm\\OneDrive\\Desktop\\CMP411\\MusicApi\\MusicApi\\wwwroot\\",
+      "BasePath": "_content/MusicApi",
+      "RelativePath": "Index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Index.html"
+    },
+    {
+      "Identity": "C:\\Users\\cgirm\\OneDrive\\Desktop\\CMP411\\MusicApi\\MusicApi\\wwwroot\\music.css",
+      "SourceId": "MusicApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cgirm\\OneDrive\\Desktop\\CMP411\\MusicApi\\MusicApi\\wwwroot\\",
+      "BasePath": "_content/MusicApi",
+      "RelativePath": "music.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\music.css"
+    },
+    {
+      "Identity": "C:\\Users\\cgirm\\OneDrive\\Desktop\\CMP411\\MusicApi\\MusicApi\\wwwroot\\music.js",
+      "SourceId": "MusicApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cgirm\\OneDrive\\Desktop\\CMP411\\MusicApi\\MusicApi\\wwwroot\\",
+      "BasePath": "_content/MusicApi",
+      "RelativePath": "music.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\music.js"
+    }
+  ]
+}
