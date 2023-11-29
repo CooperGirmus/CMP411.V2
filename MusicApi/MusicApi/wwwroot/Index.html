@@ -2,23 +2,26 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>To-do CRUD</title>
-    <link rel="stylesheet" href="site.css" />
+    <title>Music CRUD</title>
+    <link rel="stylesheet" href="music.css" />
 </head>
 <body>
-    <h1>To-do CRUD</h1>
-    <h3>Add</h3>
-    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
-        <input type="text" id="add-name" placeholder="New to-do">
+    <h1>Music CRUD</h1>
+    <h3>Add Music Item</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addMusicItem()">
+        <input type="text" id="add-song-name" placeholder="Song Name">
+        <input type="text" id="add-artist-name" placeholder="Artist Name">
+        <input type="number" id="add-rating" placeholder="Rating">
         <input type="submit" value="Add">
     </form>
 
     <div id="editForm">
-        <h3>Edit</h3>
-        <form action="javascript:void(0);" onsubmit="updateItem()">
+        <h3>Edit Music Item</h3>
+        <form action="javascript:void(0);" onsubmit="updateMusicItem()">
             <input type="hidden" id="edit-id">
-            <input type="checkbox" id="edit-isComplete">
-            <input type="text" id="edit-name">
+            <input type="text" id="edit-song-name" placeholder="Song Name">
+            <input type="text" id="edit-artist-name" placeholder="Artist Name">
+            <input type="number" id="edit-rating" placeholder="Rating">
             <input type="submit" value="Save">
             <a onclick="closeInput()" aria-label="Close">&#10006;</a>
         </form>
@@ -28,15 +31,16 @@
 
     <table>
         <tr>
-            <th>Is Complete?</th>
-            <th>Name</th>
+            <th>Song Name</th>
+            <th>Artist Name</th>
+            <th>Rating</th>
             <th></th>
             <th></th>
         </tr>
-        <tbody id="todos"></tbody>
+        <tbody id="musicItems"></tbody>
     </table>
 
-    <script src="js/site.js" asp-append-version="true"></script>
+    <script src="music.js" asp-append-version="true"></script>
     <script type="text/javascript">
         getItems();
     </script>

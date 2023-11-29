@@ -1,4 +1,6 @@
-﻿input[type='submit'], button, [aria-label] {
+﻿input[type='submit'],
+button,
+[aria-label] {
     cursor: pointer;
 }
 
@@ -6,18 +8,38 @@
     display: none;
 }
 
+h1, h3 {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+input {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
 table {
     font-family: Arial, sans-serif;
     border: 1px solid;
     border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid;
+    padding: 10px;
 }
 
 th {
     background-color: #f8f8f8;
-    padding: 5px;
 }
 
-td {
-    border: 1px solid;
-    padding: 5px;
+#counter {
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+
 }
