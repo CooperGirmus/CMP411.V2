@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Class exersise </title>
+    <link rel="stylesheet" href="Excersise.css">
+    <script src="Excersise.js"></script>
+</head>
+<body>
+    <div class="flexBoxRow">
+        
+        <div class="flexBoxColumn">
+            <h1> To get a word and put it in a list </h1>
+            <form name="myform">
+                word to list: <input type="text" name="newWord" value=""><br />
+                list 1 or 2?: <input type="number" name="newNumber" value=""><br /><br />
+                <input type="button" value="add to list" onclick="validatANDadd()">              
+            </form>
+        </div>
+        <div class="flexBoxColumn">
+            <h2> List 1 </h2> 
+            <table id="myList1">
+            </table>
+  
+            
+            <input type="button" value="clearlist" onclick="clearList1()">
+        </div>
+        <div class="flexBoxColumn">
+            <h2>List 2</h2>
+            <table id="myList2">     
+            </table>
+        
+            <input type="button" value="clearlist" onclick="clearList2()">
+        </div>
+    </div>
+
+    
+</body>
+</html>
